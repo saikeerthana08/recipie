@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="recipebook.css">
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="recipe-book-bg-container d-flex flex-column justify-content-center">
+            <h1 class="book-title">Homemade Pastry Recipes</h1>
+            <p class="description">"As long as you know how to bake,life is sure to be sweet".</p>
+            <div class="text-center">
+                <button class="btn btn-outline-success button" onclick="display('sectionpastries')">View more</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionpastries">
+        <div class="bg-container">
+            <p class="description2">Come explore my recipe book & Bake your Favourite pastry with your own hands at home.</p>
+            <div class="recipes-bg-container d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                    <h1 class="recipe-name">Cupcakes</h1>
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1658749191/bryam-blanco-Pf49J6V-4IQ-unsplash_blem33.jpg" class="image" onclick="display('sectioncupcakes')" />
+                </div>
+                <div class="d-flex flex-column">
+                    <h1 class="recipe-name">Donuts</h1>
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1658660568/kobby-mendez-q54Oxq44MZs-unsplash_dubf7r.jpg" class="image" onclick="display('sectiondonuts')" />
+                </div>
+            </div>
+            <div class="recipes-bg-container d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                    <h1 class="recipe-name">Croissants</h1>
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1658749694/conor-brown-sqkXyyj4WdE-unsplash_eepydz.jpg" class="image" onclick="display('sectioncroissants')" />
+                </div>
+                <div class="d-flex flex-column">
+                    <h1 class="recipe-name">Cookies</h1>
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1658504907/saymom-leao-UY5kkN44XQA-unsplash_wucnyw.jpg" class="image" onclick="display('sectioncookies')" />
+                </div>
+            </div>
+            <button class="btn btn-outline-info" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectioncupcakes">
+        <div class="recipe-section">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/bUGhwmAWTK8?rel=0" allowfullscreen></iframe>
+            </div>
+            <p class="name">Ingredients</p>
+            <ul class="list">
+                <li>1/2 cup unsalted butter, softened at room temperature</li>
+                <li> 3/4 cup granulated sugar</li>
+                <li> 2 large eggs, room temperature</li>
+                <li> 1 tsp vanilla </li>
+                <li> 1 1/2 cups cake flour</li>
+                <li> 1 1/2 tsp baking powder</li>
+                <li> 1/4 tsp salt</li>
+                <li> 1/2 cup whole milk, room temperature</li>
+                <li> 4 oz (113g) cream cheese, softened at room temperature</li>
+                <li> 1 cup heavy whipping cream</li>
+                <li> 2-4 tbsp or more powdered sugar, adjust accordingly</li>
+            </ul>
+            <div class="text-center">
+                <button class="btn btn-warning" onclick="display('sectionpastries')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondonuts">
+        <div class="recipe-section">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/THlmlloXwpE?rel=0" allowfullscreen></iframe>
+            </div>
+            <p class="name">Ingredients</p>
+            <ul class="list">
+                <li>2 Eggs</li>
+                <li> 1 Cup Milk </li>
+                <li>2 Tsp Yeast</li>
+                <li>1/4 Tsp Salt</li>
+                <li>1/2 Tsp Vanilla Extract</li>
+                <li>1/3 Cup Sugar</li>
+                <li>1/4 Cup (50g) Unsalted Butter</li>
+                <li>Vegetable Oil</li>
+                <li>Dark Chocolate (3 oz)</li>
+                <li>Shredded Coconut, Walnuts, Chocolate</li>
+            </ul>
+            <div class="text-center">
+                <button class="btn btn-warning" onclick="display('sectionpastries')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectioncroissants">
+        <div class="recipe-section">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/jw_yWmK6Fuo?rel=0" allowfullscreen></iframe>
+            </div>
+            <p class="name">Ingredients</p>
+            <ul class="list">
+                Makes 8 croissants
+                <li>2 cups (250g) strong bread flour</li>
+                <li>1 1/4 sticks sticks (150g) cold unsalted butter, cubed</li>
+                <li>1/2 cup (120 ml) lukewarm milk</li>
+                <li>3 tbsp (45 g) sugar</li>
+                <li>25 g fresh yeast (7 g- active dry yeast)</li>
+                <li>1/2 tsp salt</li>
+                <li>Egg Wash<br />
+                    1 egg yolk<br />
+                    1 tbsp milk</li>
+            </ul>
+            <div class="text-center">
+                <button class="btn btn-warning" onclick="display('sectionpastries')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectioncookies">
+        <div class="recipe-section">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/3vUtRRZG0xY?rel=0" allowfullscreen></iframe>
+            </div>
+            <p class="name">Ingredients</p>
+            <ul class="list">
+                <li>½ cup sugar</li>
+                <li>¾ cup brown sugar, packed</li>
+                <li>1 teaspoon salt</li>
+                <li>½ cup butter, melted</li>
+                <li>1 egg</li>
+                <li>1 teaspoon vanilla extract</li>
+                <li>1¼ cups all-purpose flour</li>
+                <li>½ teaspoon baking soda</li>
+                <li>4 ounces milk or semi-sweet chocolate chunks </li>
+                <li>4 ounces dark chocolate chunks (or your preference)</li>
+            </ul>
+            <div class="text-center">
+                <button class="btn btn-warning" onclick="display('sectionpastries')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
